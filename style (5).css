@@ -43,7 +43,7 @@ body {
   top: 302%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40cm;
+  width: 125%;
   height: 5cm;
   background-color: rgb(38, 38, 38);
 }
