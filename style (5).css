@@ -6,9 +6,10 @@ body {
   padding: 0;
 }
 .fon-one {
+  position: absolute;
   background-image: url('https://img3.akspic.ru/crops/0/6/3/5/7/175360/175360-sportkar-nissan_gt_r-legkovyye_avtomobili-nissan_skyline_gt_r-nissan-1080x1920.jpg');
   background-size: cover;
-  width: 40cm;
+  width: 100vw;
   height: 59cm;
 }
 .title{
@@ -17,21 +18,21 @@ body {
   top: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40cm;
   height: 3cm;
   background-color: rgb(38, 38, 38);
   position: fixed;
   display: flex; /* Використовуємо flexbox для розміщення внутрішніх об'єктів */
   justify-content: flex-start; /* Вирівнюємо вміст від ліва до права */
   align-items: flex-end;
-  z-index: +1;
+  z-index: +11;
+  width: 100vw;
 }
 .info-text {
   border-radius: 30px;
   opacity: 0.9;
   position: absolute;
   top: 150%;
-  left: 50%;
+  margin-left: 20cm;
   transform: translate(-50%, -50%);
   width: 30cm;
   height: 50cm;
@@ -43,9 +44,9 @@ body {
   top: 302%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 125%;
   height: 5cm;
   background-color: rgb(38, 38, 38);
+  width: 100vw;
 }
 .but-nextandback {
   position: absolute;
@@ -83,7 +84,7 @@ background-color: white;
   top: 1.7%;
   left: 5%;
   color: white;
-  z-index: +1;
+  z-index: +12;
 }
 #choose-page {
   top: 40%;
@@ -101,7 +102,7 @@ cursor: pointer;
 #choose-page:active {
   font-size: 17px;
 }
-.ForAudio{
+.ForAudioOne{
   border-radius: 10px;
   height: 2cm;
   width: 22cm;
@@ -111,12 +112,12 @@ cursor: pointer;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#musicPlayer{
+#musicPlayerOne{
   position: absolute;
   margin-left: 67.5%;
-  margin-top: -138.7%;
+  margin-top: 12%;
   transform: translate(-50%, -50%);
-  z-index: +1;
+  z-index: +10;
 }
 #PhotoBr {
   position: absolute;
@@ -133,7 +134,7 @@ cursor: pointer;
   background-position: center; /* Встановіть позицію фону в центр контейнера */
   border: 1px solid #000;
 }
-.InfoMusic{
+.InfoMusicOne{
   height: 2cm;
   width: 11cm;
   position: absolute;
@@ -141,7 +142,7 @@ cursor: pointer;
   left: 35%;
   transform: translate(-50%, -50%);
   background-color: white;
-  z-index: +10;
+  z-index: +1;
 }
 .Name-music{
   position: absolute;
@@ -160,7 +161,7 @@ cursor: pointer;
   font-family: 'Lato', sans-serif,'Arial Narrow Bold';
   font-family: 'Roboto Slab', serif;
 }
-.ForAudioOne{
+.ForAudioTwo{
   border-radius: 10px;
   height: 2cm;
   width: 22cm;
@@ -170,14 +171,14 @@ cursor: pointer;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#musicPlayer1{
+#musicPlayerTwo{
   position: absolute;
   margin-left: 67.5%;
-  margin-top: -131.4%;
+  margin-top: 19.5%;
   transform: translate(-50%, -50%);
-  z-index: +1;
+  z-index: +10;
 }
-.InfoMusicOne{
+.InfoMusicTwo{
   height: 2cm;
   width: 11cm;
   position: absolute;
@@ -187,6 +188,129 @@ cursor: pointer;
   background-color: rgb(255, 255, 255);
 }
 #PhotoNeza {
+  height: 1.5cm;
+  width: 1.5cm;
+  border-radius: 10px;
+  border: none;
+  background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2c/89/45/2c89453a-8b76-aaa8-df47-458d5ba01f18/artwork.jpg/400x400cc.jpg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1.5%;
+  margin-left: 5%;
+  transform: translate(-50%, -5%);
+  background-size: cover; /* Зробіть фон відповідним розмірам контейнера */
+  background-position: center; /* Встановіть позицію фону в центр контейнера */
+  border: 1px solid #000;
+}
+
+.ForAudioThree{
+  border-radius: 10px;
+  height: 2cm;
+  width: 22cm;
+  background-color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#musicPlayerThree{
+  position: absolute;
+  margin-left: 67.5%;
+  margin-top: 26.5%;
+  transform: translate(-50%, -50%);
+  z-index: +10;
+}
+.InfoMusicThree{
+  height: 2cm;
+  width: 11cm;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+#PhotoThree{
+  height: 1.5cm;
+  width: 1.5cm;
+  border-radius: 10px;
+  border: none;
+  background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2c/89/45/2c89453a-8b76-aaa8-df47-458d5ba01f18/artwork.jpg/400x400cc.jpg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1.5%;
+  margin-left: 5%;
+  transform: translate(-50%, -5%);
+  background-size: cover; /* Зробіть фон відповідним розмірам контейнера */
+  background-position: center; /* Встановіть позицію фону в центр контейнера */
+  border: 1px solid #000;
+}
+
+.ForAudioFour{
+  border-radius: 10px;
+  height: 2cm;
+  width: 22cm;
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#musicPlayerFour{
+  position: absolute;
+  margin-left: 67.5%;
+  margin-top: 33.5%;
+  transform: translate(-50%, -50%);
+  z-index: +10;
+}
+.InfoMusicFour{
+  height: 2cm;
+  width: 11cm;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+#PhotoFour{
+  height: 1.5cm;
+  width: 1.5cm;
+  border-radius: 10px;
+  border: none;
+  background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2c/89/45/2c89453a-8b76-aaa8-df47-458d5ba01f18/artwork.jpg/400x400cc.jpg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1.5%;
+  margin-left: 5%;
+  transform: translate(-50%, -5%);
+  background-size: cover; /* Зробіть фон відповідним розмірам контейнера */
+  background-position: center; /* Встановіть позицію фону в центр контейнера */
+  border: 1px solid #000;
+}
+
+.ForAudioFive{
+  border-radius: 10px;
+  height: 2cm;
+  width: 22cm;
+  background-color: white;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#musicPlayerFive{
+  position: absolute;
+  margin-left: 67.5%;
+  margin-top: 40.5%;
+  transform: translate(-50%, -50%);
+  z-index: +10;
+}
+.InfoMusicFive{
+  height: 2cm;
+  width: 11cm;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+#PhotoFive{
   height: 1.5cm;
   width: 1.5cm;
   border-radius: 10px;
