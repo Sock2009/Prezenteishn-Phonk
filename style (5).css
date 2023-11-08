@@ -31,12 +31,12 @@ body {
   border-radius: 30px;
   opacity: 0.9;
   position: absolute;
-  top: 150%;
+  margin-top: 28cm;
   margin-left: 20cm;
   transform: translate(-50%, -50%);
   width: 30cm;
   height: 50cm;
-  background-color: white;
+  background-color: rgb(38, 38, 38);
 }
 .footer{
   opacity: 0.99;
@@ -70,7 +70,7 @@ body {
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-background-color: white;
+background-color: rgb(38, 38, 38);
 }
 .for-info-text {
   font-family: 'Lato', sans-serif;
@@ -325,7 +325,18 @@ cursor: pointer;
   border: 1px solid #000;
 }
 
-
+.for-info-text{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+#infos-one{
+  margin-top: 0.5cm;
+}
+#infos-two{
+  margin-top: 0.5cm;
+}
 
 
 
